@@ -4,4 +4,4 @@ Body mass index (BMI) is a measure of body fat based on height and weight. BMI d
 ## Description
 This application was created during ["The Complete iOS App Development Bootcamp"](https://www.udemy.com/course/ios-13-app-development-bootcamp/). Its layout was created from scratch. App was created with MVC pattern.
 
- <img src ="For Readme/app_1screen.png" width="300"> <img src ="For Readmeapp_2screen.png" width="300">
+ <img src ="For Readme/app_1screen.png" width="300"> <img src ="For Readme/app_2screen.png" width="300">
