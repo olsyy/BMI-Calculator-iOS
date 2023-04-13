@@ -16,12 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_launch_screen" translatesAutoresizingMaskIntoConstraints="NO" id="6Su-fX-cM7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_second_vc" translatesAutoresizingMaskIntoConstraints="NO" id="6Su-fX-cM7">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IBM CALCULATOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5t-tS-swa">
-                                <rect key="frame" x="65" y="470" width="263" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IBM CALCULATOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5t-tS-swa">
+                                <rect key="frame" x="65" y="408" width="263" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -30,7 +29,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="S5t-tS-swa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6O6-6L-YNt"/>
                             <constraint firstItem="6Su-fX-cM7" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="mpQ-El-5rZ"/>
+                            <constraint firstItem="S5t-tS-swa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nSV-18-Mki"/>
                             <constraint firstItem="6Su-fX-cM7" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="rai-W6-qip"/>
                             <constraint firstAttribute="bottom" secondItem="6Su-fX-cM7" secondAttribute="bottom" id="u6P-RG-Gys"/>
                             <constraint firstItem="6Su-fX-cM7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uRQ-zf-yuD"/>
@@ -43,7 +44,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background_launch_screen" width="454" height="807"/>
+        <image name="background_second_vc" width="454" height="807"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
